@@ -6,9 +6,9 @@ using namespace std;
 
 class Player {
 public:
-    virtual char makeMove() = 0; // Pure virtual function
+    virtual char makeMove() = 0; 
     virtual string getName() = 0;
-    virtual ~Player() {} // Virtual destructor
+    virtual ~Player() {} 
 };
 
 #endif
