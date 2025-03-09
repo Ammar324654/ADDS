@@ -3,7 +3,7 @@
 Computer::Computer() {}
 
 char Computer::makeMove() {
-    return 'R'; // Always plays Rock
+    return 'R'; 
 }
 
 string Computer::getName() {
